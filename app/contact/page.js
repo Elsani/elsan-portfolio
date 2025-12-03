@@ -35,8 +35,7 @@ export default function ContactPage() {
     <div style={{ maxWidth: "520px" }}>
       <h1 style={{ fontSize: "2rem", marginBottom: "1rem" }}>Contact</h1>
       <p style={{ color: "#9ca3af", marginBottom: "1.5rem" }}>
-        Nëse po kërkon Web Developer (Next.js / Node.js) ose ke pyetje, shkruaj
-        këtu:
+        If you are looking for a Web Developer, feel free to reach out here:
       </p>
 
       <form
@@ -44,7 +43,7 @@ export default function ContactPage() {
         style={{ display: "grid", gap: "1rem", fontSize: "0.95rem" }}
       >
         <div>
-          <label>Emri</label>
+          <label>Name</label>
           <input
             name="name"
             required
@@ -60,7 +59,7 @@ export default function ContactPage() {
           />
         </div>
         <div>
-          <label>Email</label>
+          <label>Email Address</label>
           <input
             name="email"
             type="email"
@@ -77,7 +76,7 @@ export default function ContactPage() {
           />
         </div>
         <div>
-          <label>Mesazhi</label>
+          <label>Message</label>
           <textarea
             name="message"
             rows={4}
@@ -108,7 +107,7 @@ export default function ContactPage() {
             cursor: "pointer",
           }}
         >
-          Dergo
+          Send
         </button>
 
         {status && (
