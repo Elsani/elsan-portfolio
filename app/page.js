@@ -86,7 +86,7 @@ export default function HomePage() {
           >
             <Image
               src="/public/Profile.jpg" // vendose një foto në /public me këtë emër
-              alt="Elsan Memeti"
+              alt=""
               fill
               style={{ objectFit: "cover" }}
             />
