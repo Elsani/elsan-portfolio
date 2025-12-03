@@ -27,9 +27,9 @@ export default function HomePage() {
            Hello, I'm Elsan Memeti👋
           </h1>
           <p style={{ color: "#9ca3af", lineHeight: 1.6 }}>
-            I am a Web Developer focused on Front-End Development (React, Next.js) and Back-End Development using Node.js, Express, and REST APIs, with strong knowledge of modern web architecture.  <b></b>
+            I am a Web Developer focused on <b></b>
             <strong>Front-end Development (React / Next.js)</strong> and <b></b>
-            <strong>Backend with Node.js, Express REST API <b></b></strong>
+            <strong>Backend with Node.js, Express REST API <b></b></strong>with strong knowledge of modern web architecture. 
             I have hands-on experience working on real projects, API integrations, and writing clean, maintainable code following best practices and Git workflows.
           </p>
 
