@@ -1,25 +1,46 @@
 // app/projects/page.js
 const projects = [
   {
-    title: "Taxi Booking Web App",
-    tech: ["React", "Node.js", "MongoDB"],
+    title: "Spring crude demo",
+    tech: ["Spring Boot", "Java OOP", "CSS"],
     description:
-      "Aplikacion web për rezervim taxi me dashboard për admin dhe email notifications.",
-    link: "#",
+      "Spring Boot CRUD application, and Cloud vendor",
+    link: "https://github.com/Elsani/spring-crud-demo",
   },
   {
-    title: "Trading Dashboard XAU/USD",
-    tech: ["Next.js", "REST API", "Chart.js"],
+    title: "Netflix-Clone",
+    tech: ["React.js", "Node.js", "CSS"],
     description:
-      "Dashboard për monitorim të sinjaleve të tradingut dhe analizë të performancës.",
-    link: "#",
+      "Netflix Clone web application. with dashboard",
+    link: "https://github.com/Elsani/netflix-clone/tree/main/netflix-clon",
   },
   {
     title: "HR & Employee Management",
     tech: ["Java", "Spring Boot", "MySQL"],
     description:
-      "Sistem për menaxhimin e punonjësve dhe orëve të punës si pjesë e diplomës.",
-    link: "#",
+      "An employee and working-hours management system built as part of my bachelor thesis project.",
+    link: "https://github.com/Elsani/EmployeeManagment",
+  },
+    {
+    title: "URL-shortener web application",
+    tech: ["Java", "Spring Boot", "MySQL"],
+    description:
+      "The URL shortener allows you to create shortened links, making them easier to share.",
+    link: "https://github.com/Elsani/URL-Shortener-Project",
+  },
+    {
+    title: "Fitness Gym website",
+    tech: ["Javascript", "Vue.js", "CSS"],
+    description:
+      "AFitness gym website – a frontend project designed for companies that operate fitness centers.",
+    link: "https://github.com/Elsani/FitnesGym",
+  },
+    {
+    title: "Raiffeisen Bank Database",
+    tech: ["MySQL"],
+    description:
+      "An example of designing and building a MySQL database for Raiffeisen Bank.",
+    link: "https://github.com/Elsani/Raiffeisen-Bank-Mysql",
   },
 ];
 
@@ -28,7 +49,8 @@ export default function ProjectsPage() {
     <div>
       <h1 style={{ fontSize: "2rem", marginBottom: "1.5rem" }}>Projects</h1>
       <p style={{ color: "#9ca3af", marginBottom: "2rem" }}>
-        Disa nga projektet ku jam fokusuar në backend & frontend development.
+        A set of projects where I contributed to both frontend and backend development, 
+        including API integration and modern web architecture.
       </p>
 
       <div

@@ -24,14 +24,13 @@ export default function HomePage() {
               fontWeight: 700,
             }}
           >
-            Un jam Elsan Memeti👋
+           Hello, I'm Elsan Memeti👋
           </h1>
           <p style={{ color: "#9ca3af", lineHeight: 1.6 }}>
-            Jam Web Developer me fokus në <b></b>
-            <strong>Front-end Development (React / Next.js)</strong> dhe <b></b>
-            <strong>Backend me Node.js, Express dhe REST API <b></b></strong>
-            si dhe arkitekturë moderne web. Kam eksperiencë me projekte reale,
-            integrime API dhe clean code & Git workflow.
+            I am a Web Developer focused on Front-End Development (React, Next.js) and Back-End Development using Node.js, Express, and REST APIs, with strong knowledge of modern web architecture.  <b></b>
+            <strong>Front-end Development (React / Next.js)</strong> and <b></b>
+            <strong>Backend with Node.js, Express REST API <b></b></strong>
+            I have hands-on experience working on real projects, API integrations, and writing clean, maintainable code following best practices and Git workflows.
           </p>
 
           <div style={{ marginTop: "1.5rem", display: "flex", gap: "1rem" }}>
@@ -47,7 +46,7 @@ export default function HomePage() {
                 fontSize: "0.95rem",
               }}
             >
-              Shiko projektet
+              View the projects
             </a>
             <a
               href="/contact"
@@ -60,7 +59,7 @@ export default function HomePage() {
                 fontSize: "0.95rem",
               }}
             >
-              Kontakto mua
+              Contact me
             </a>
           </div>
         </div>
