@@ -75,18 +75,18 @@ export default function ProjectsPage() {
             </h2>
             <p style={{ fontSize: "0.9rem", color: "#9ca3af" }}>
               {project.description}
-                          <a 
+              <a 
               href={project.link} 
               target="_blank" 
               rel="noopener noreferrer" 
-              style={{
+              style={{ 
                 color: "white",
                 textDecoration: "underline",
                 marginTop: "1rem",
-                display: "inline-block"
+                display: "inline-block",
               }}
-            >
-              Open GitHub →
+            >&nbsp
+              <b>Open GitHub → </b>
             </a>
             </p>
             <div
