@@ -85,7 +85,7 @@ export default function ProjectsPage() {
                 marginTop: "1rem",
                 display: "inline-block",
               }}
-            >&nbsp
+            > . 
               <b>Open GitHub → </b>
             </a>
             </p>
